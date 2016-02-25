@@ -1,0 +1,42 @@
+.header, #about{
+    padding: 0;
+}
+
+.img-back{
+    min-height: 90vh;
+    background: #1693ac;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px){
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .aboutText{
+        padding: 10% 0;
+    }
+    .it-head{
+        padding: 40% 0;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .it-head{
+        padding: 25% 0;
+    }
+}
+#itinerary .carousel{
+    height: 250px;
+}
+
+#itinerary .row{
+    margin-bottom: 0;
+}
